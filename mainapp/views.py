@@ -6,7 +6,7 @@ from django.views.generic import View
 
 
 class HelloWorldView(View):
-    def get(self, *args):
+    def get(self, *args, **kwargs):
         return HttpResponse("Hello world!_ver2")
 
 
